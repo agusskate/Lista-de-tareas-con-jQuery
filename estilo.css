@@ -1,0 +1,88 @@
+
+*{font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}
+
+.body{
+    background-image: url(background.gif) ;
+
+}
+.h3{
+    color: aliceblue;
+}
+.contenedor {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #333;
+    border-radius: 12px;
+    width: 80%;
+    margin: 50px auto;
+    padding: 10px;
+    background-color: #bc08e0e8;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.contenedor2 {
+    list-style-type: none;
+    width: 90%;
+    padding-bottom: 4%;
+}
+
+.listaTareas {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 5%;
+}
+
+.input {
+    flex: 1;
+    padding: 8px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+ 
+
+.bt1,.deleteBute,.completadaBute {
+    padding: 8px 15px;
+    border: none;
+    border-radius: 4px;
+    background-color: #4CAF50;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.bt1:hover, .deleteBute:hover, .completadaBute:hover {
+    background-color: #f0e43b;
+}
+
+.deleteBute {
+    background-color: #9c1c1300;
+}
+
+.completadaBute {
+    background-color: #2195f300;
+}
+.contenedorTareasNuevas{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 5px;
+    background-color: #dddddd;
+    border-radius: 5px;
+ 
+}
+.textoTareasNuevas{
+    width: 70%;
+    display: flex;
+    align-items: center;
+    padding-left: 2%;
+}
+.botonesTareasNuevas{
+    width: 25%;
+    display: flex;
+    justify-content: end;
+}
